@@ -3,7 +3,7 @@ from NPparse import info
 
 userQuote = input("Enter your quote: ")
 
-f = open("SW3.txt", encoding='utf-8-sig')
+f = open("../SW3.txt", encoding='utf-8-sig')
 
 
 dict = {}
