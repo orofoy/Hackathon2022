@@ -1,5 +1,5 @@
 def parse(input_quote):
-    with open('../SW3.txt', encoding='utf-8-sig') as f:
+    with open('../NP/SW3.txt', encoding='utf-8-sig') as f:
         time_array = []
         quote_array = []
         total_line = ""
