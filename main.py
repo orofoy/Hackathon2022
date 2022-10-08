@@ -1,3 +1,3 @@
 from parser import parse
 
-print(parse)
+print(parse())
