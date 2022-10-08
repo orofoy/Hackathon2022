@@ -1,3 +1,3 @@
-from parser import parse
+from parserPoop import parse
 
 print(parse())
