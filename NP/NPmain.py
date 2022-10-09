@@ -1,4 +1,4 @@
-from NPQuoteDict import findQuote
+from NPparse import findQuote
 from glob import glob
 import os
 
@@ -7,17 +7,23 @@ def listOfFiles():
     list = os.listdir()
     textList = []
     for file in list:
-        if ".txt" in file:
+        if ".srt" in file:
             textList.append(file)
 
     return textList
 
-for i in range(len(listOfFiles())):
-    print("hi")
-
 userQuote = input("Enter your quote: ")
 
 if len(userQuote) >= 1:
-    findQuote(userQuote)
+    textFiles = listOfFiles()
+    foundQuote = False
+    for i in range(len(textFiles)):
+            foundQuote = findQuote(userQuote, textFiles[i])
+
+    # TODO: if found in first movie but not second it sets it back to false
+    if not foundQuote:
+        print("Could not find quote.")
 else:
     print("You must type in a quote!")
+
+
