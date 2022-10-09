@@ -1478,8 +1478,8 @@ Take a seat. I'll be right with ya.
 
 333
 00:31:57,164 --> 00:32:00,626
-- You wanna cup o' jawa juice?
-- Oh, yes. Thank you.
+<i>- You wanna cup o' jawa juice?
+- Oh, yes. Thank you.</i>
 
 334
 00:32:03,421 --> 00:32:07,258
@@ -2929,8 +2929,8 @@ with the prime minister of Kamino.
 
 662
 00:57:35,076 --> 00:57:37,328
-They are using a bounty hunter
-named Jango Fett
+<i>They are using a bounty hunter
+named Jango Fett</i>
 
 663
 00:57:37,411 --> 00:57:38,746
@@ -4019,7 +4019,7 @@ to Count Dooku and are forming a...
 
 914
 01:28:40,147 --> 01:28:42,399
-Wait. Wait.
+<i>Wait. Wait.</i>
 
 915
 01:28:53,702 --> 01:28:58,040
@@ -4041,7 +4041,7 @@ is to stay where you are.
 
 919
 01:29:07,591 --> 01:29:10,010
-Protect the senator at all costs.
+<i>Protect the senator at all costs.</i>
 
 920
 01:29:10,302 --> 01:29:13,222
